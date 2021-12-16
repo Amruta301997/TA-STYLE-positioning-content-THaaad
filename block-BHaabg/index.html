@@ -1,15 +1,78 @@
-<!-- ### Exercise
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Positioning content with Inline block</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
 
-1. Create a simple page having a header, main content, and a footer.
 
-2. Inside the header keep the logo to the left and all the navigation to the right.
+  <body>
 
-3. The header must be fixed at the top of the page.
+<!--<div id="container">-->
+   <header>
+     <div class="container">
+       <a class="brand" href="#">
+       <img src="logo.png" class="logo">
+       </a>
 
-4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+       <div class="navbar" >
+           
+           <a href="#">child photo</a>&nbsp;
+           <a href="#">family photo</a>&nbsp;
+           <a href="#">all photo</a>&nbsp;
+           <a href="#">CONTACT</a>&nbsp;
+       </div>
+     </div>
+    </header>
 
-5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+   <main>
+     <article class="article">
+       <div class="container">
+         <div class="col">
+         <h1>An Indian Summer</h1>
+         <p>Started with an ultimate objective to transform a house into a home, an Indian Summer is an interior design blog. 
+          It brings to you handpicked collection of unique and inspiring vintage design aesthetics. 
+          It reflects the blogger’s experience in the world of interiors, travel, design, and lifestyle.
+         </p>
+        </div>
+        <div class="col">
+          <img class="article-img" src="img6.png" alt=""/>
+        </div>
+       </div>
+     </article>
 
-6. After the gallery section footer will come.
+     <section class="container gallery">
+          <h1>Gallery Section</h1>
+          <div class="box"><img src="img2.png"> </div>
+          <div class="box"><img src="img3.png"> </div>
+          <div class="box"><img src="img4.png"> </div>
+          <div class="box"><img src="img5.png"> </div>
+          <div class="box"><img src="img7.png"> </div>
+          <div class="box"><img src="img8.png"> </div>
+         
 
-7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+     </section>
+
+     <!--<a class="box1" href="#">TOP</a>-->
+
+   </main>
+   
+     <div class="fixed-btn">
+       <p>TOP</p>
+     </div>
+  
+
+   <footer>
+     <a href="Twitter">Twitter</a>
+     <a href="Twitter">Facebook</a>
+     <a href="Twitter">instagram</a>
+     
+    
+
+    </footer>
+
+  </body>
+
+  </html>
